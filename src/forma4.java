@@ -12,6 +12,8 @@ public class forma4 {
     private JButton btangente;
     private JButton bsecante;
 
+    // Botton del coseno
+
     public forma4() {
         bcoseno.addActionListener(new ActionListener() {
             @Override
@@ -29,6 +31,8 @@ public class forma4 {
                 resultado1Lbl.setText("Resultado: " + r1);
             }
         });
+
+        // Boton del Seno
         bseno.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -45,6 +49,8 @@ public class forma4 {
                 resultado1Lbl.setText("Resultado: " + r1);
             }
         });
+
+        //Boton de la Tangente
         btangente.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -61,6 +67,8 @@ public class forma4 {
                 resultado1Lbl.setText("Resultado: " + r1);
             }
         });
+
+        // Boton de la Secante
         bsecante.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
