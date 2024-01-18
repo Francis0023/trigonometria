@@ -7,7 +7,7 @@ public class Main {
         JFrame frame=new JFrame("seno");
         frame.setContentPane(new forma4().seno);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600,480);
+        frame.setSize(1750,3280);
         frame.pack();
         frame.setVisible(true);
 
